@@ -1,0 +1,82 @@
+.productCardContainer {
+  width: 100%;
+  padding: 1rem 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px 0;
+  background-color: white;
+  color: var(--black);
+  border-radius: 5px;
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  position: relative;
+}
+.productCardContainer img {
+  width: 95% !important;
+  height: 200px !important;
+  border-radius: 0.5rem;
+}
+h3 {
+  flex: 1;
+  font-size: 20px;
+}
+
+h4 .span {
+  text-decoration: line-through !important;
+  color: gray;
+  text-decoration-color: var(--black);
+}
+
+.discount {
+  padding-left: 1rem;
+  color: rgb(21, 245, 21);
+}
+
+.bag {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  width: 90%;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  color: var(--black);
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.bag:hover {
+  background-color: rgb(4, 192, 4);
+}
+
+.fav {
+  visibility: hidden;
+  position: absolute;
+  right: -1.5%;
+  top: 1%;
+  font-size: 30px !important;
+  cursor: pointer;
+  color: black;
+}
+
+.productCardContainer:hover .fav {
+  visibility: visible;
+  animation-name: fav;
+  animation-duration: 1s;
+  transition: ease-out;
+}
+
+@keyframes fav {
+  0% {
+    right: -4%;
+  }
+
+  100% {
+    right: -1.5%;
+  }
+}

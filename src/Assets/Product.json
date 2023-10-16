@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "title": "Hasbro Gaming Foosketball",
+    "price": 2400,
+    "minAge": 9,
+    "maxAge": 11,
+    "rating": 3,
+    "img": "https://hamleysgumlet.gumlet.io/product/492337089/300/492337089-1_4211.webp"
+  },
+  {
+    "id": 2,
+    "title": "ELC My 1St Sand and Water Table",
+    "price": 1200,
+    "minAge": 1,
+    "maxAge": 1,
+    "rating": 4,
+    "img": "https://hamleysgumlet.gumlet.io/product/410104120001/300/410104120001-1.webp"
+  },
+  {
+    "id": 3,
+    "title": "ELC Twist and Turn House Activity Game ",
+    "price": 2300,
+    "minAge": 1,
+    "maxAge": 1,
+    "rating": 5,
+    "img": "https://hamleysgumlet.gumlet.io/product/492365284/300/492365284-1.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Zoozi Beach set with Wagon",
+    "price": 1300,
+    "minAge": 1,
+    "maxAge": 1,
+    "rating": 5,
+    "img": "https://hamleysgumlet.gumlet.io/product/492408396/300/492408396-1.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Disney Flamingo Doll",
+    "price": 1900,
+    "minAge": 1,
+    "maxAge": 1,
+    "rating": 3,
+    "img": "https://hamleysgumlet.gumlet.io/product/491334681/300/491334681-1.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Shooting star Xylophone red",
+    "price": 2450,
+    "minAge": 18,
+    "maxAge": 35,
+    "rating": 4,
+    "img": "https://hamleysgumlet.gumlet.io/product/492409373/300/492409373.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Kingdom Of Play Luxury Kitchen set ",
+    "price": 2400,
+    "minAge": 18,
+    "maxAge": 35,
+    "rating": 1,
+    "img": "https://hamleysgumlet.gumlet.io/product/492364309/300/492364309-1.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Playshifu Shifu Ride with 20 Vehicles",
+    "price": 1450,
+    "minAge": 18,
+    "maxAge": 35,
+    "rating": 4,
+    "img": "https://hamleysgumlet.gumlet.io/product/491899088/300/491899088-1.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Hamleys Bubble Blaster With Fuel Impulse",
+    "price": 2750,
+    "minAge": 3,
+    "maxAge": 4,
+    "rating": 3,
+    "img": "https://hamleysgumlet.gumlet.io/product/492407842/300/492407842-1.JPG"
+  },
+  {
+    "id": 10,
+    "title": "Playshifu Orboot The Educational",
+    "price": 750,
+    "minAge": 5,
+    "maxAge": 6,
+    "rating": 2,
+    "img": "https://hamleysgumlet.gumlet.io/product/491373981/300/491373981-1.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Hamleys Air Hockey Table",
+    "price": 3500,
+    "minAge": 5,
+    "maxAge": 6,
+    "rating": 1,
+    "img": "https://hamleysgumlet.gumlet.io/product/492337227/300/492337227-1.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Jasco Jumbo Teddy, 140Cm",
+    "price": 4500,
+    "minAge": 5,
+    "maxAge": 6,
+    "rating": 3,
+    "img": "https://hamleysgumlet.gumlet.io/product/491634911/300/491634911-1.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Barbie Fashionistas doll",
+    "price": 2800,
+    "minAge": 5,
+    "maxAge": 6,
+    "rating": 3,
+    "img": "https://hamleysgumlet.gumlet.io/product/491567599/300/491567599.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Playnxt The Homemade Golfer Set",
+    "price": 2900,
+    "minAge": 5,
+    "maxAge": 6,
+    "rating": 5,
+    "img": "https://hamleysgumlet.gumlet.io/product/491282065/300/491282065-1.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Mirada Ultimate Insta Glam Kit Nail set",
+    "price": 2750,
+    "minAge": 5,
+    "maxAge": 6,
+    "rating": 5,
+    "img": "https://hamleysgumlet.gumlet.io/product/492409151/300/492409151-1.webp"
+  },
+  {
+    "id": 16,
+    "title": "Hot Wheels Tornado Trackset",
+    "price": 2100,
+    "minAge": 7,
+    "maxAge": 8,
+    "rating": 3,
+    "img": "https://hamleysgumlet.gumlet.io/product/490341754/300/490341754-1.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Marvin'S Magic Big Box Of Magic Impulse",
+    "price": 2150,
+    "minAge": 9,
+    "maxAge": 11,
+    "rating": 2,
+    "img": "https://hamleysgumlet.gumlet.io/product/491489495/300/491489495.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Hamleys Telescope Science Equipments",
+    "price": 2600,
+    "minAge": 9,
+    "maxAge": 11,
+    "rating": 2,
+    "img": "https://hamleysgumlet.gumlet.io/product/490619093/300/490619093-1.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Nerf Disruptor Elite Blaster",
+    "price": 1600,
+    "minAge": 9,
+    "maxAge": 11,
+    "rating": 4,
+    "img": "https://hamleysgumlet.gumlet.io/product/491333222/300/491333222-1_3077.webp"
+  },
+  {
+    "id": 20,
+    "title": "Lego Race Plane Lego Blocks",
+    "price": 1800,
+    "minAge": 12,
+    "maxAge": 13,
+    "rating": 5,
+    "img": "https://hamleysgumlet.gumlet.io/product/491959943/300/491959943-1.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Nerf Elite 2.0 Shockwave RD 15 Blaster ",
+    "price": 1950,
+    "minAge": 12,
+    "maxAge": 13,
+    "rating": 1,
+    "img": "https://hamleysgumlet.gumlet.io/product/491902645/300/491902645-1_7140.webp"
+  },
+  {
+    "id": 22,
+    "title": "Hamleys Remote Control Car",
+    "price": 2000,
+    "minAge": 12,
+    "maxAge": 13,
+    "rating": 2,
+    "img": "https://hamleysgumlet.gumlet.io/product/492408246/300/492408246-1.jpg"
+  }
+]
