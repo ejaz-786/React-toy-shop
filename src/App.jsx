@@ -10,18 +10,18 @@ import {
   Snackbar,
 } from "@mui/material";
 import Nav from "./components/commonComponents/Navbar/Nav";
-// import About from "./Pages/About Page/About";
-// import Cart from "./Pages/Cart Page/Cart";
-// import Products from "./Pages/Products Page/Products";
-// import Checkout from "./Pages/Checkout Page/Checkout";
+import Products from "./pages/Products page/Products.jsx";
 import Login from "./auth/Login/Login";
 import Sign from "./auth/SignUp/SignUp";
-// import Footer from "./components/commonComponents/Footer/";
-// import Details from "./Pages/Details Page/Details";
 import { cartReducer, productReducer } from "./reducer/Reducer.jsx";
 import toys from "./Assets/Product.json";
 import Home from "./pages/Home page/Home";
-// import Wishlist from "./Pages/WishList Page/Wishlist";
+import Footer from "./components/commonComponents/Footer/Footer";
+import About from "./pages/About page/About";
+import Cart from "./pages/Cart page/Cart";
+import Details from "./pages/Details page/Details";
+import Wishlist from "./pages/Cart page/Cart";
+import Checkout from "./pages/Checkout page/Checkout";
 
 const context = createContext();
 function App() {
@@ -107,17 +107,17 @@ function App() {
           <Nav />
           <Routes>
             <Route path="/" exact element={<Home />} />
-            {/* <Route path="/about" element={<About />} />
-            <Route path="/cart" element={<Cart />} /> */}
-            {/* <Route path="/products" element={<Products />} /> */}
-            {/* <Route path="/checkout" element={<Checkout />} /> */}
+            <Route path="/about" element={<About />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/checkout" element={<Checkout />} />
             <Route path="/login" element={<Login />} />
             <Route path="/create" element={<Sign />} />
-            {/* <Route path="/wishlist" element={<Wishlist />} />
+            <Route path="/wishlist" element={<Wishlist />} />
             <Route path="product/:ID" element={<Details />} />
-            <Route path="products/product/:ID" element={<Details />} /> */}
+            <Route path="products/product/:ID" element={<Details />} />
           </Routes>
-          {/* <Footer /> */}
+          <Footer />
         </Router>
 
         {/* Dialog component from MUI */}

@@ -1,0 +1,139 @@
+.cartProductContainer {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 1vh;
+  border-collapse: collapse;
+  margin-top: 2vh;
+  /* box-shadow: var(--shadow2); */
+}
+
+.cartProductDetails {
+  flex: 1.2;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.fa-trash-can:hover {
+  color: red;
+}
+
+.cartProductContainer .cartProductDetails img {
+  width: 200px;
+  height: 120px;
+  border-radius: 1vh;
+  border: 1px solid;
+}
+
+.cartProductQuantity {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cartProductDetails h3 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.cartProductPrice {
+  flex: 0.5;
+  height: 120px;
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  border: 1px solid;
+  box-shadow: var(--shadow);
+}
+
+.quantity {
+  font-size: 30px;
+}
+
+.price,
+.itemprice {
+  font-size: 20px;
+}
+
+.delete {
+  font-size: 35px !important;
+}
+
+.delete:hover {
+  color: red;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+  .cartProductContainer {
+    width: 95%;
+  }
+
+  .cartProductContainer .cartProductDetails img {
+    width: 150px;
+    height: 120px;
+  }
+
+  .cartProductPrice {
+    font-size: 17px;
+  }
+
+  .cartProductDetails h3 {
+    font-size: 17px;
+  }
+
+  .quantity {
+    font-size: 20px;
+  }
+
+  .delete {
+    font-size: 25px !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cartProductContainer {
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-evenly;
+  }
+
+  .cartProductContainer .cartProductDetails img {
+    width: 250px;
+    height: 120px;
+    border: none;
+  }
+
+  .cartProductContainer .cartProductDetails {
+    flex-direction: column;
+  }
+
+  .cartProductPrice {
+    flex: 1;
+    font-weight: 600;
+    border: none;
+    box-shadow: none;
+  }
+  .quantity {
+    font-size: 25px;
+  }
+  .delete {
+    margin-left: 1rem;
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cartProductContainer {
+    width: 90%;
+  }
+}

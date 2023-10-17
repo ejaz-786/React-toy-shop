@@ -1,0 +1,64 @@
+.wishlistContainer {
+  width: 100%;
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: var(--white);
+  color: var(--black);
+}
+.wishlistContainer > h1 {
+  font-size: 40px;
+}
+.btn {
+  margin-top: 1rem;
+  padding: 5px 2rem;
+  background-color: var(--red);
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.WishList {
+  width: 100%;
+  padding: 2rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(14rem, 1fr));
+  gap: 1rem 2rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .WishList {
+    grid-template-columns: repeat(4, minmax(15rem, 1fr));
+  }
+}
+@media screen and (max-width: 1080px) {
+  .WishList {
+    grid-template-columns: repeat(3, minmax(10rem, 1fr));
+  }
+}
+@media screen and (max-width: 750px) {
+  .WishList {
+    grid-template-columns: repeat(2, minmax(15rem, 1fr));
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .WishList {
+    grid-template-columns: repeat(1, minmax(15rem, 1fr));
+  }
+}
+
+.NoProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.NoProduct img {
+  width: 400px;
+}
+.NoProduct h1 {
+  font-size: 25px;
+}
