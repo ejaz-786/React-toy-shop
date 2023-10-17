@@ -27,8 +27,7 @@ const Footer = () => {
       <div className={style.contact}>
         <h1>Contact Us</h1>
         <h5>
-          {" "}
-          <Phone /> 8210997459{" "}
+          <Phone /> (+91) 8210997459
         </h5>
         <h6>
           {" "}
